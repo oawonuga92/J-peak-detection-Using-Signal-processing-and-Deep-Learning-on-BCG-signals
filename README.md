@@ -1,0 +1,2 @@
+# J-peak-detection-Using-Signal-processing-and-Deep-Learning-on-BCG-signals
+This project presents a novel approach for J peak detection in Heart-Rate monitoring. The proposed approach employs accelerometers to collect Ballistocardiogram (BCG) data for short-term HRV monitoring during sleep in a cohort of 14 patients. The bidirectional Long Short-Term Memory (Bi-LSTM), a deep learning model, is then used to detect J-peak.
