@@ -21,7 +21,9 @@ The methodology will be implemented with Python Programming Languages. Also, R i
 8.  Train and Testing: To train the Bi-LSTM model, 10 kfold cross-validation strategy is adopted because it provides a balance between the bias of a single train-test split (which might not be representative of the entire dataset) and the high computational cost of leave-one-out cross-validation (where each data point is treated as a test set). The Bi-LSTM model is trained with 70% of the labelled DWT and EEMD datasets associated with subjects 1-7. The efficiency of the trained model is evaluated using the 30% validation data of subject 1-7. Thereafter, the model's predictive capabilities are tested on subject 8, 9 and 10 datasets. The epoch pass is set to 150.
 ***********
 # III. Analysis and Results
-A. HRV Time Domain Analysis
+A. HRV Time Domain Analysis: 
+
+In general, the bpm estimates using DWT technique show a good degree of consistency across the 3 different sleeping positions for each subject. In addition, the bpm values tend to follow a similar increasing or decreasing trend as the ground truth ECG- average bpm values
 
 
 ![image](https://github.com/oawonuga92/J-peak-detection-Using-Signal-processing-and-Deep-Learning-on-BCG-signals/assets/61459286/7ba5cd0a-9d87-44ce-bf1e-489ce86cc098)
