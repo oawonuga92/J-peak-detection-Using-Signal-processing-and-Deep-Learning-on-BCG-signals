@@ -28,11 +28,10 @@ In general, the bpm estimates using DWT technique show a good degree of consiste
 ![image](https://github.com/oawonuga92/J-peak-detection-Using-Signal-processing-and-Deep-Learning-on-BCG-signals/assets/61459286/7c04b731-19d4-4ab5-b66a-e8e3200bb327)
 
 
+B. Coverage Analysis
+Coverage is a crucial metric for evaluating the precision of the DWT and EEMD methods in deriving JJI. It offers insights into how well the alignment between derived intervals and ground truth data fit. 
+DWT tends to have higher CR for subjects 1, 4, and 8, while EEMD performs slightly better than DWT for subject 10. Generally, DWT shows higher CR for most subjects in this analysis, suggesting it may be a more robust choice across different subjects with different heart conditions
 
-![image](https://github.com/oawonuga92/J-peak-detection-Using-Signal-processing-and-Deep-Learning-on-BCG-signals/assets/61459286/7ba5cd0a-9d87-44ce-bf1e-489ce86cc098)
-
-![image](https://github.com/oawonuga92/J-peak-detection-Using-Signal-processing-and-Deep-Learning-on-BCG-signals/assets/61459286/60288a4e-2021-4fd1-a309-8f47fe7de49f)
-
-
+![image](https://github.com/oawonuga92/J-peak-detection-Using-Signal-processing-and-Deep-Learning-on-BCG-signals/assets/61459286/6f95e8af-a254-438d-88fc-799f64a88c44)
 
 
