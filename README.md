@@ -22,7 +22,8 @@ The methodology will be implemented with Python Programming Languages. Also, R i
 ***********
 # III. Analysis and Results
 A. HRV Time Domain Analysis
-***
+
+
 ![image](https://github.com/oawonuga92/J-peak-detection-Using-Signal-processing-and-Deep-Learning-on-BCG-signals/assets/61459286/7ba5cd0a-9d87-44ce-bf1e-489ce86cc098)
 
 
