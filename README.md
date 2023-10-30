@@ -3,7 +3,7 @@
 # Project Summary
 This project presents a novel approach for J peak detection in Heart-Rate monitoring. The proposed approach employs accelerometers to collect Ballistocardiogram (BCG) data for short-term HRV monitoring during sleep in a cohort of 14 patients. The bidirectional Long Short-Term Memory (Bi-LSTM), a deep learning model, is then used to detect J-peak.
 *******************
-Problem Statement
+# Problem Statement
 Heart-Rate Variability (HRV) is typically measured by analyzing the changes in the R-R interval (RRI) of an electrocardiogram (ECG), where the R peak corresponds to the prominent peak in a cardiac cycle. Ballistocardiogram (BCG) is a recording of the body's mechanical movement caused by the rhythmic pumping of the heart as blood is ejected into the major blood vessels. The BCG signals can be obtained using simple pressure or vibration sensors. The J peak in BCG signal aligns with the R peak in ECG and offers a promising alternative for long-term monitoring in the comfort of one's home. Detecting individual heartbeats from BCG signals is more challenging compared to ECG due to the complex nature of multiple waves present in BCG. Deep learning has emerged as an effective approach for extracting heartbeats from BCG signals. The aim of this work is to provide and implement an effective solution for HRV estimation, demonstrated by using signal processing techniques for accurate and steady BCG signal detection
 *************************
 # I.  DataSet Acquisition and Decription
