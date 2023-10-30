@@ -28,5 +28,8 @@ In general, the bpm estimates using DWT technique show a good degree of consiste
 
 ![image](https://github.com/oawonuga92/J-peak-detection-Using-Signal-processing-and-Deep-Learning-on-BCG-signals/assets/61459286/7ba5cd0a-9d87-44ce-bf1e-489ce86cc098)
 
+![image](https://github.com/oawonuga92/J-peak-detection-Using-Signal-processing-and-Deep-Learning-on-BCG-signals/assets/61459286/60288a4e-2021-4fd1-a309-8f47fe7de49f)
+
+
 
 
