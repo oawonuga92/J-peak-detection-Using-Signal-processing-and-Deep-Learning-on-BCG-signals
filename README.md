@@ -44,5 +44,21 @@ EEMD also shows relatively consistent performance across subjects, with error va
 
 ![image](https://github.com/oawonuga92/J-peak-detection-Using-Signal-processing-and-Deep-Learning-on-BCG-signals/assets/61459286/dfe6a38e-d65d-4096-b067-c1afa5c6e125)
 
+#
+
+D. Data Modelling and Evaluation Results
+
+Evaluation metrics such recall, precision, accuracy positive prediction value (PPV) and negative prediction value (NPV) were used to assess model performance.
+
+In comparing the predictive performance of the DWT model against the EEMD model at the right and supine positions using the 30% validation data, it can be observed in Table 6 that DWT outperforms EEMD in both sleeping positions, achieving higher precision values (RightLateral: 0.92 > 0.87) and (Supine: 0.94 > 0.82). This indicates that DWT accurately identifies J-peaks 90% of the time as true positives. Furthermore, DWT has a higher recall than EEMD in the Right position (0.99 > 0.87) but slightly lower recall in the Supine position. 
+
+In Table 7 above, it can be observed that both techniques consistently demonstrated same average precision values (precision > 0.82) for subject 8 and 9 with the exception of subject 10 (precision > 0.82). This indicates that both DWT and EEMD models were over 80% accurate in predicting actual J-peaks in the cardiac signal of the 3 subjects. However, DWT models exhibited better recall (average: 0.89) than EEMD (average: 0.80), meaning DWT model have an 89%chance in detecting actual J-peaks from all J-peaks correctly identified
+
+![image](https://github.com/oawonuga92/J-peak-detection-Using-Signal-processing-and-Deep-Learning-on-BCG-signals/assets/61459286/fee67dd9-d034-4d1f-8e06-f1a3cdce3f48)
+
+*****************
+
+# V. Conclusion
+In summary, the DWT-based model produced the best J-peak prediction results for the three subjects when using the right cardiac signal. The DWT model excelled especially in precision and recall especially for subject 8 and 9, making it a preferable choice when identfying J-peaks that are actually J-peak in a right lateral cardiac signal. Also, the DWT-based Bi-LSTM model may be preferred when capturing more true positives (fraction of all of J-peaks identified) is a priority
 
 
