@@ -35,4 +35,14 @@ DWT tends to have higher CR for subjects 1, 4, and 8, while EEMD performs slight
 
 ![image](https://github.com/oawonuga92/J-peak-detection-Using-Signal-processing-and-Deep-Learning-on-BCG-signals/assets/61459286/6f95e8af-a254-438d-88fc-799f64a88c44)
 
+#
+C. Average BBI error using DWT and EEMD right lateral cardiac signal
+
+The average BBI Error (E) is calculated using the formula;  E = Sum [absolute difference (JJI - RRI)] / n-intervals
+With DWT, average beat-to-beat interval errors ranging from 0.18 to 0.19s.
+EEMD also shows relatively consistent performance across subjects, with error values (lag time) ranging from 0.16 to 0.25s
+
+![image](https://github.com/oawonuga92/J-peak-detection-Using-Signal-processing-and-Deep-Learning-on-BCG-signals/assets/61459286/dfe6a38e-d65d-4096-b067-c1afa5c6e125)
+
+
 
