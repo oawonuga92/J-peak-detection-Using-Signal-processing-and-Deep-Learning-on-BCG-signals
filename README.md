@@ -29,6 +29,7 @@ In general, the bpm estimates using DWT technique show a good degree of consiste
 
 
 B. Coverage Analysis
+
 Coverage is a crucial metric for evaluating the precision of the DWT and EEMD methods in deriving JJI. It offers insights into how well the alignment between derived intervals and ground truth data fit. 
 DWT tends to have higher CR for subjects 1, 4, and 8, while EEMD performs slightly better than DWT for subject 10. Generally, DWT shows higher CR for most subjects in this analysis, suggesting it may be a more robust choice across different subjects with different heart conditions
 
