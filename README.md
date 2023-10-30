@@ -27,7 +27,7 @@ In general, the bpm estimates using DWT technique show a good degree of consiste
 
 ![image](https://github.com/oawonuga92/J-peak-detection-Using-Signal-processing-and-Deep-Learning-on-BCG-signals/assets/61459286/7c04b731-19d4-4ab5-b66a-e8e3200bb327)
 
-
+#
 B. Coverage Analysis
 
 Coverage is a crucial metric for evaluating the precision of the DWT and EEMD methods in deriving JJI. It offers insights into how well the alignment between derived intervals and ground truth data fit. 
