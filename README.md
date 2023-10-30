@@ -23,7 +23,7 @@ The methodology will be implemented with Python Programming Languages. Also, R i
 # III. Analysis and Results
 A. HRV Time Domain Analysis: 
 
-In general, the bpm estimates using DWT technique show a good degree of consistency across the 3 different sleeping positions for each subject. In addition, the bpm values tend to follow a similar increasing or decreasing trend as the ground truth ECG- average bpm values
+In general, the bpm estimates using DWT technique show a good degree of consistency across the 3 different sleeping positions for each subject. In addition, the bpm values tend to follow a similar increasing or decreasing trend as the ground truth ECG- average bpm values.  On the other hand The bpm estimates with EEMD are sensitive to sleeping positions. Several subjects show variations in bpm when transitioning between sleeping positions. Although the DWT values also exhibit variability, similar to EEMD, however, DWT tends to exhibit greater consistency and agreement with reference ECG bpm across subjects and positions
 
 
 ![image](https://github.com/oawonuga92/J-peak-detection-Using-Signal-processing-and-Deep-Learning-on-BCG-signals/assets/61459286/7ba5cd0a-9d87-44ce-bf1e-489ce86cc098)
